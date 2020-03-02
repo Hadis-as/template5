@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+header {
+    width: 100%;
+    margin: 0 auto
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("banner.png") no-repeat scroll;
+    background-position: right;
+    background-size: 55%;
+    position: relative;
+}
+
+.left {
+    float: left;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2% 8%
+}
+
+.menu {
+    text-transform: uppercase;
+    float: right;
+    background-color: white;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 7px 12px
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold
+}
+
+.head {
+    position: absolute;
+    right: 33%;
+    top: 3%
+}
+
+.introduct {
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.introduct h1 {
+    font-size: 60px;
+    font-weight: bold
+}
+
+.introduct p {
+    color: grey;
+    margin-top: 2%;
+    font-size: 20px
+}
+
+.btn {
+    background-color: rgb(248, 119, 14);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30%;
+    font-size: 15px;
+    margin: 5%
+}
+
+.content-1 {
+    width: 100%;
+    margin: 10% 10%
+}
+
+.one {
+    width: 25%;
+    height: 55vh;
+    border: 4px solid rgb(236, 230, 230);
+    float: left;
+    margin: 1% 1%;
+    position: relative;
+}
+
+.one h2 {
+    font-size: 20px;
+    color: rgb(248, 119, 14);
+    font-size: 100px;
+    opacity: 20%;
+    margin: 1% 10%
+}
+
+.one img {
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+
+.one h3 {
+    text-align: center;
+    font-size: 25px;
+    padding: 4%;
+    text-transform: capitalize
+}
+
+.one p {
+    text-align: center;
+    padding: 3%
+}
+
+.btn-box {
+    margin: 5% 30%
+}
+
+.content-2 {
+    margin: 47% 10%;
+}
+
+.content-2 .part1,
+.part2 {
+    float: left;
+}
+
+
+/* 
+.part1 {
+    background: url("bg.png");
+    background-position: left top;
+    background-size: 150%
+} */
+
+.part1,
+.part2 {
+    width: 50%
+}
+
+.part2 .opt {
+    position: relative;
+    margin-bottom: 15%
+}
+
+.part2 .opt img {
+    vertical-align: top
+}
+
+.para1,
+.para2,
+.para3 {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: -15%
+}
+
+.para1 p,
+.part2 p,
+.para3 p {
+    color: grey
+}
+
+.para1 h2,
+.part2 h2,
+.para3 h2 {
+    text-transform: capitalize;
+    margin-bottom: 4%;
+    color: rgb(44, 43, 43)
+}
+
+.content-2 .part1 img {
+    width: 85%;
+    height: 70%;
+    display: inline;
+    margin-left: -5%
+}
+
+.about h1 {
+    text-align: center;
+    text-transform: capitalize
+}
+
+.about h1 span {
+    color: rgb(248, 119, 14);
+}
+
+.about p {
+    text-align: center;
+    padding: 1% 20%;
+    color: grey
+}
+
+.about {
+    margin-top: 100%;
+    margin-bottom: 8%
+}
+
+.content-3 {
+    width: 80%;
+    margin: 0 15%;
+    position: relative;
+}
+
+.content-3 .sec1 {
+    /* width: 40%; */
+}
+
+.content-3 .sec2 {}
+
+.sec1,
+.sec2 {
+    float: left;
+    width: 25vw;
+    height: 40vh;
+    background-image: linear-gradient(to right bottom, rgb(248, 92, 31), rgb(206, 76, 66));
+    border-radius: 3%;
+    filter: opacity(90%);
+    margin: 0 3%;
+    padding: 2%
+}
+
+.sec3 {
+    width: 6vw;
+    height: 11vh;
+    background-image: linear-gradient(to right bottom, rgb(248, 92, 31), rgb(206, 76, 66));
+    border-radius: 3%;
+    filter: grayscale(30%);
+    position: absolute;
+    /* bottom: -30%; */
+    right: 13%;
+    margin-top: 8%;
+    color: white;
+    text-align: center
+}
+
+.sec4 {
+    width: 6vw;
+    height: 11vh;
+    background-image: linear-gradient(to right bottom, rgb(248, 92, 31), rgb(206, 76, 66));
+    border-radius: 3%;
+    filter: grayscale(30%);
+    position: absolute;
+    right: 8%;
+    margin-top: 12%;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sec1 img {
+    position: absolute;
+    top: -20%;
+    left: -17%;
+    width: 30%;
+    height: 40%
+}
+
+.sec1 h2,
+p,
+.sec2 h2,
+p {
+    color: rgb(230, 201, 201);
+    text-align: center;
+    margin-bottom: 2%
+}
+
+.sec1 p,
+.sec2 p {
+    padding: 3%;
+    font-style: italic
+}
+
+.sec2 img {
+    position: absolute;
+    top: -20%;
+    left: -17%;
+    width: 30%;
+    height: 40%
+}
+
+footer {
+    background: url("footer-bg.png") no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    margin-top: 10%;
+    float: left;
+}
+
+footer .form {
+    width: 50%;
+    position: absolute;
+    left: 10%;
+    top: 440%
+}
+
+footer .form form {
+    width: 35vw;
+    height: 55vh;
+    background-color: white;
+    border-radius: 3%;
+    padding: 4%;
+}
+
+footer .form form input {
+    padding: 3%;
+    margin-bottom: 3%;
+    opacity: 40%;
+}
+
+footer .lava {
+    width: 50%;
+    float: right;
+    position: absolute;
+    right: 1%;
+    top: 450%
+}
+
+footer .lava h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+footer .lava p {
+    padding: 1%;
+    text-align: left;
+    margin-right: 5%
+}
